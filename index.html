@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veldcoast — Software for the Construction Industry</title>
+  <meta name="description" content="Veldcoast builds modern software solutions for the construction industry. Streamline operations, manage projects, and build smarter.">
+  <meta property="og:title" content="Veldcoast — Software for the Construction Industry">
+  <meta property="og:description" content="Modern software solutions that help construction companies streamline operations and build smarter.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0f1a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">&#9651;</span>
+        <span class="nav__logo-text">veldcoast</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact" class="btn btn--sm">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient hero__gradient--1"></div>
+        <div class="hero__gradient hero__gradient--2"></div>
+        <div class="hero__gradient hero__gradient--3"></div>
+        <canvas class="hero__canvas" id="hero-canvas"></canvas>
+      </div>
+      <div class="hero__glow" id="hero-glow"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Software Services for Construction</p>
+        <h1 class="hero__title reveal">
+          Building Software<br>
+          <span class="hero__title-accent">for the Builders</span>
+        </h1>
+        <p class="hero__subtitle reveal">
+          We engineer modern digital tools that help construction companies
+          streamline operations, manage projects, and scale with confidence.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary btn--lg">
+            <span>Start a Project</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn--ghost btn--lg">See What We Do</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">What We Do</p>
+          <h2 class="section-title">End-to-end software<br>for construction</h2>
+        </div>
+        <div class="services__grid">
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3>Project Management Platforms</h3>
+            <p>Custom-built tools for scheduling, budgeting, and tracking projects from groundbreaking to close-out.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            </div>
+            <h3>Data &amp; Analytics</h3>
+            <p>Real-time dashboards and reporting that turn jobsite data into actionable insight for stakeholders.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Systems Integration</h3>
+            <p>Seamless connections between your ERP, BIM, field apps, and accounting systems — no more data silos.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Compliance &amp; Safety</h3>
+            <p>Digital workflows for inspections, safety checklists, and regulatory compliance that keep your crews protected.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Stats -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__text reveal">
+            <p class="section-label">Who We Are</p>
+            <h2 class="section-title">Engineers who<br>understand the field</h2>
+            <p class="about__description">
+              Veldcoast was founded by software engineers with deep roots in construction.
+              We've walked jobsites, sat in trailer meetings, and lived the pain of disconnected
+              tools. That experience drives everything we build — practical software that
+              actually gets adopted by the people who use it.
+            </p>
+          </div>
+          <div class="about__stats">
+            <div class="stat reveal">
+              <span class="stat__number" data-target="150">0</span>
+              <span class="stat__suffix">+</span>
+              <span class="stat__label">Projects Delivered</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__number" data-target="12">0</span>
+              <span class="stat__label">Years in Business</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__number" data-target="40">0</span>
+              <span class="stat__suffix">+</span>
+              <span class="stat__label">Construction Clients</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__number" data-target="99">0</span>
+              <span class="stat__suffix">%</span>
+              <span class="stat__label">Client Retention</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Featured -->
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Selected Work</p>
+          <h2 class="section-title">Real solutions,<br>real results</h2>
+        </div>
+        <div class="work__grid">
+          <div class="work-card work-card--wide reveal">
+            <div class="work-card__content">
+              <span class="work-card__tag">Project Management</span>
+              <h3>SiteSync Pro</h3>
+              <p>A unified field-to-office platform that reduced project delays by 35% for a top-20 general contractor.</p>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card__content">
+              <span class="work-card__tag">IoT &amp; Analytics</span>
+              <h3>EquipTrack</h3>
+              <p>Real-time equipment monitoring across 200+ jobsites, cutting idle costs by $2.4M annually.</p>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card__content">
+              <span class="work-card__tag">Safety &amp; Compliance</span>
+              <h3>SafePass</h3>
+              <p>Digital safety orientation and compliance tracking adopted across 8,000+ field workers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <p class="section-label">Let's Build Together</p>
+          <h2 class="contact__title">Ready to modernize<br>your operations?</h2>
+          <p class="contact__subtitle">Tell us about your project. We'll get back to you within 24 hours.</p>
+          <a href="mailto:hello@veldcoast.com" class="btn btn--primary btn--lg">
+            <span>hello@veldcoast.com</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="nav__logo-icon">&#9651;</span>
+            <span class="nav__logo-text">veldcoast</span>
+          </a>
+          <p>Software services for the construction industry.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2026 Veldcoast. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
